@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'St pauls universitys',
+      title: 'St. Paul\'s university',
      
       theme: ThemeData(
       
-        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 201, 14, 14)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 201, 14, 14)),
       ),
-      home: const MyHomePage(title: 'St pauls universitys'),
+      home: const MyHomePage(title: 'School of Computing and Informatics'),
     );
   }
 }
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
          
           mainAxisAlignment: .center,
           children: [
-            const Text('You have pushed the button this many times:'),
+            const Text('where passion meets professionalism'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
